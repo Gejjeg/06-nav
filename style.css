@@ -1,0 +1,117 @@
+nav {
+    display: flex;
+    background-color: rgb(52, 52, 53);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 10vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+li {
+    color: white;
+
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    padding: 0 10px;
+}
+
+.faded {
+    color: rgb(179, 177, 176);
+}
+
+.very-faded {
+    color: rgb(131, 118, 105);
+}
+
+input,
+button {
+    margin: 6px 3px;
+    border-radius: 5px;
+}
+
+input {
+    padding-left: 9px;
+}
+
+.search-field {
+    display: flex;
+    /* flex: 1; */
+    margin-left: auto;
+    justify-content: right;
+}
+
+select {
+    background-color: rgb(52, 52, 53);
+    border: none;
+    color: rgb(179, 177, 176);
+    font-size: 16px;
+}
+button {
+    padding: 0 12px;
+    background-color: rgb(52, 52, 53);
+    border: 1px solid green;
+    color: green;
+}
+button:hover {
+    background-color: green;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+    }
+    .search-field {
+        display: none;
+    }
+    .hide {
+        visibility: hidden;
+    }
+    .hamburger1 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 3px;
+        float: right;
+        justify-content: right;
+        /* display: flex; */
+        /* justify-content: right; */
+        /* flex: 1; */
+    }
+    .hamburger2 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 3px;
+        float: right;
+        justify-content: right;
+    }
+    .hamburger3 {
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 3px;
+        float: right;
+        justify-content: right;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        justify-content: center;
+    }
+}
